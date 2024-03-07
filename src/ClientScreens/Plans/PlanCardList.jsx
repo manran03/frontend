@@ -93,6 +93,8 @@ const PlanCardList = ({ plans }) => {
         </div>
       </div></center>
 
+      <br/>
+
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {sortPlans().map((plan, index) => (
           <div key={index} style={{ width: '33%', padding: '10px' }}>

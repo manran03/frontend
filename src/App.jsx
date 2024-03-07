@@ -13,6 +13,8 @@ import ProfilePage from "./ClientScreens/Profilepage/Profilepage";
 import DashboardClient from "./ClientScreens/DashBoard/Dashboard";
 import LandingPage from "./ClientScreens/LandingPage/LandingPage";
 import PlansCl from "./ClientScreens/Plans/PlansCl";
+import AdvClView from "./ClientScreens/AdvisersClientView/AdvClView";
+import AdvClProfile from "./ClientScreens/AdvisersClientView/AdvClProfile";
 function App() {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
@@ -31,10 +33,11 @@ function App() {
         <Routes>
           <Route element={<BaseLayout />}>
           <Route path="/cldash" element={<DashboardClient />} />
+          <Route path="/advisor_id/:advisor_id" element={<AdvClProfile />} />
           <Route path="/profile" element={<ProfilePage />} />
             <Route path="/" element={<LandingPage />} />
             <Route path="/planscl" element={<PlansCl/>} />
-            {/* <Route path="/transaction" element={<Transaction/>} />   */}
+             <Route path="/viewadvi" element={<AdvClView/>} /> 
            {/* <Route path="/queries" element={<Queries/>} /> */}
             <Route path="/plan" element={<Plans/>} />
           </Route>
