@@ -1,0 +1,404 @@
+[
+
+      {
+        "plan_id": "456",
+        "advisor_id": "12323",
+        "date_created": "010122",
+        "plan_name": "dodo.invest",
+        "rating": "4.4/5",
+        "risk_cat": "high",
+        "type_cat": "equity",
+        "total_orders": 845,
+        "price": 199.99,
+        "stocklist": [
+          {
+            "symbol": "vdl",
+            "qty": "20"
+          },
+          {
+            "symbol": "arem",
+            "qty": "70"
+          }
+        ]
+      },
+      {
+        "plan_id": "457",
+        "advisor_id": "11234",
+        "date_created": "020122",
+        "plan_name": "nest.returns",
+        "rating": "4.8/5",
+        "risk_cat": "low",
+        "type_cat": "mutual_funds",
+        "total_orders": 1023,
+        "price": 149.99,
+        "stocklist": [
+          {
+            "symbol": "nfm",
+            "qty": "50"
+          },
+          {
+            "symbol": "gip",
+            "qty": "30"
+          }
+        ]
+      },
+      {
+        "plan_id": "458",
+        "advisor_id": "13456",
+        "date_created": "030122",
+        "plan_name": "growth_plus",
+        "rating": "4.6/5",
+        "risk_cat": "medium",
+        "type_cat": "bonds",
+        "total_orders": 732,
+        "price": 179.99,
+        "stocklist": [
+          {
+            "symbol": "bnd",
+            "qty": "100"
+          },
+          {
+            "symbol": "fnt",
+            "qty": "80"
+          }
+        ]
+      },
+      {
+        "plan_id": "459",
+        "advisor_id": "15678",
+        "date_created": "040122",
+        "plan_name": "smart.savvy",
+        "rating": "4.2/5",
+        "risk_cat": "medium",
+        "type_cat": "index_funds",
+        "total_orders": 621,
+        "price": 129.99,
+        "stocklist": [
+          {
+            "symbol": "idx",
+            "qty": "40"
+          },
+          {
+            "symbol": "tix",
+            "qty": "60"
+          }
+        ]
+      },
+      {
+        "plan_id": "460",
+        "advisor_id": "18902",
+        "date_created": "050122",
+        "plan_name": "wealth_build",
+        "rating": "4.9/5",
+        "risk_cat": "low",
+        "type_cat": "savings_accounts",
+        "total_orders": 920,
+        "price": 249.99,
+        "stocklist": [
+          {
+            "symbol": "sav",
+            "qty": "150"
+          },
+          {
+            "symbol": "acc",
+            "qty": "200"
+          }
+        ]
+      },
+      {
+        "plan_id": "461",
+        "advisor_id": "19023",
+        "date_created": "060122",
+        "plan_name": "future_growth",
+        "rating": "4.7/5",
+        "risk_cat": "high",
+        "type_cat": "real_estate",
+        "total_orders": 1056,
+        "price": 349.99,
+        "stocklist": [
+          {
+            "symbol": "reit",
+            "qty": "30"
+          },
+          {
+            "symbol": "prop",
+            "qty": "50"
+          }
+        ]
+      },
+      {
+        "plan_id": "462",
+        "advisor_id": "21234",
+        "date_created": "070122",
+        "plan_name": "blue_chip",
+        "rating": "4.5/5",
+        "risk_cat": "medium",
+        "type_cat": "dividend_stocks",
+        "total_orders": 804,
+        "price": 179.99,
+        "stocklist": [
+          {
+            "symbol": "div",
+            "qty": "80"
+          },
+          {
+            "symbol": "stk",
+            "qty": "120"
+          }
+        ]
+      },
+      {
+        "plan_id": "463",
+        "advisor_id": "23456",
+        "date_created": "080122",
+        "plan_name": "secure_growth",
+        "rating": "4.3/5",
+        "risk_cat": "low",
+        "type_cat": "government_bonds",
+        "total_orders": 932,
+        "price": 159.99,
+        "stocklist": [
+          {
+            "symbol": "gov",
+            "qty": "200"
+          },
+          {
+            "symbol": "bnd",
+            "qty": "150"
+          }
+        ]
+      },
+      {
+        "plan_id": "464",
+        "advisor_id": "25678",
+        "date_created": "090122",
+        "plan_name": "tech_invest",
+        "rating": "4.6/5",
+        "risk_cat": "high",
+        "type_cat": "technology_stocks",
+        "total_orders": 1150,
+        "price": 299.99,
+        "stocklist": [
+          {
+            "symbol": "tech",
+            "qty": "90"
+          },
+          {
+            "symbol": "inf",
+            "qty": "70"
+          }
+        ]
+      },
+      {
+        "plan_id": "465",
+        "advisor_id": "27890",
+        "date_created": "100122",
+        "plan_name": "green_energy",
+        "rating": "4.8/5",
+        "risk_cat": "medium",
+        "type_cat": "renewable_energy_stocks",
+        "total_orders": 1325,
+        "price": 219.99,
+        "stocklist": [
+          {
+            "symbol": "re",
+            "qty": "110"
+          },
+          {
+            "symbol": "ene",
+            "qty": "80"
+          }
+        ]
+      },
+      {
+        "plan_id": "466",
+        "advisor_id": "29012",
+        "date_created": "110122",
+        "plan_name": "diamond_diversify",
+        "rating": "4.5/5",
+        "risk_cat": "medium",
+        "type_cat": "precious_metals",
+        "total_orders": 720,
+        "price": 399.99,
+        "stocklist": [
+          {
+            "symbol": "gold",
+            "qty": "10"
+          },
+          {
+            "symbol": "silver",
+            "qty": "20"
+          }
+        ]
+      },
+      {
+        "plan_id": "467",
+        "advisor_id": "31023",
+        "date_created": "120122",
+        "plan_name": "global_opportunity",
+        "rating": "4.7/5",
+        "risk_cat": "high",
+        "type_cat": "international_stocks",
+        "total_orders": 990,
+        "price": 279.99,
+        "stocklist": [
+          {
+            "symbol": "int",
+            "qty": "120"
+          },
+          {
+            "symbol": "overseas",
+            "qty": "80"
+          }
+        ]
+      },
+      {
+        "plan_id": "468",
+        "advisor_id": "33456",
+        "date_created": "130122",
+        "plan_name": "retirement_rocket",
+        "rating": "4.9/5",
+        "risk_cat": "low",
+        "type_cat": "retirement_accounts",
+        "total_orders": 1500,
+        "price": 499.99,
+        "stocklist": [
+          {
+            "symbol": "ret",
+            "qty": "200"
+          },
+          {
+            "symbol": "401k",
+            "qty": "300"
+          }
+        ]
+      },
+      {
+        "plan_id": "469",
+        "advisor_id": "35678",
+        "date_created": "140122",
+        "plan_name": "education_empower",
+        "rating": "4.3/5",
+        "risk_cat": "medium",
+        "type_cat": "education_savings",
+        "total_orders": 820,
+        "price": 199.99,
+        "stocklist": [
+          {
+            "symbol": "edu",
+            "qty": "80"
+          },
+          {
+            "symbol": "learn",
+            "qty": "120"
+          }
+        ]
+      },
+      {
+        "plan_id": "470",
+        "advisor_id": "37890",
+        "date_created": "150122",
+        "plan_name": "healthy_portfolio",
+        "rating": "4.8/5",
+        "risk_cat": "low",
+        "type_cat": "healthcare_stocks",
+        "total_orders": 1125,
+        "price": 279.99,
+        "stocklist": [
+          {
+            "symbol": "health",
+            "qty": "100"
+          },
+          {
+            "symbol": "med",
+            "qty": "150"
+          }
+        ]
+      },
+      {
+        "plan_id": "471",
+        "advisor_id": "41012",
+        "date_created": "160122",
+        "plan_name": "crypto_craze",
+        "rating": "4.6/5",
+        "risk_cat": "high",
+        "type_cat": "cryptocurrency",
+        "total_orders": 1650,
+        "price": 599.99,
+        "stocklist": [
+          {
+            "symbol": "btc",
+            "qty": "5"
+          },
+          {
+            "symbol": "eth",
+            "qty": "10"
+          }
+        ]
+      },
+      {
+        "plan_id": "472",
+        "advisor_id": "43456",
+        "date_created": "170122",
+        "plan_name": "income_generators",
+        "rating": "4.4/5",
+        "risk_cat": "medium",
+        "type_cat": "income_funds",
+        "total_orders": 950,
+        "price": 329.99,
+        "stocklist": [
+          {
+            "symbol": "inc",
+            "qty": "70"
+          },
+          {
+            "symbol": "gen",
+            "qty": "50"
+          }
+        ]
+      },
+      {
+        "plan_id": "473",
+        "advisor_id": "45678",
+        "date_created": "180122",
+        "plan_name": "venture_vision",
+        "rating": "4.7/5",
+        "risk_cat": "high",
+        "type_cat": "venture_capital",
+        "total_orders": 1200,
+        "price": 799.99,
+        "stocklist": [
+          {
+            "symbol": "ven",
+            "qty": "15"
+          },
+          {
+            "symbol": "cap",
+            "qty": "20"
+          }
+        ]
+      },
+      {
+        "plan_id": "474",
+        "advisor_id": "47890",
+        "date_created": "190122",
+        "plan_name": "silver_lining",
+        "rating": "4.9/5",
+        "risk_cat": "low",
+        "type_cat": "silver_stocks",
+        "total_orders": 1350,
+        "price": 189.99,
+        "stocklist": [
+          {
+            "symbol": "sil",
+            "qty": "100"
+          },
+          {
+            "symbol": "lin",
+            "qty": "80"
+          }
+        ]
+      }
+    ]
+  
+  
