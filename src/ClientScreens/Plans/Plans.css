@@ -4,6 +4,7 @@
     height: 15rem;
     perspective: 1000px;
     display: flex;
+    margin-bottom: 2rem;
   }
   
   .flip-card-inner {
@@ -41,3 +42,60 @@
     transform: rotateY(180deg);
     border-radius: 1.5rem;
   }
+
+  .cout{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+    margin-top: 0.5rem;
+
+  }
+
+  .cin{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ffo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  }
+  
+  label {
+    margin-right: 1rem;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  select {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  select {
+    width: 10rem;
+  }
+  
+  input[type="number"] {
+    width: 5rem;
+  }
+  
+  /* Adjust the margin and padding as needed */
+  

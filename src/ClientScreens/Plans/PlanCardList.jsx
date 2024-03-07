@@ -47,46 +47,51 @@ const PlanCardList = ({ plans }) => {
   };
 
   return (
-    <div>
-      <div>
-        <label>
-          Filter by Risk Category:
-          <select name="cat_risk" value={filters.cat_risk} onChange={handleFilterChange}>
-            <option value="">All</option>
-            <option value="low">Low</option>
-            <option value="medium">Medium</option>
-            <option value="high">High</option>
-          </select>
-        </label>
-        <label>
-          Filter by Type Category:
-          <select name="cat_type" value={filters.cat_type} onChange={handleFilterChange}>
-            <option value="">All</option>
-            <option value="equity">Equity</option>
-            <option value="mutual_funds">Mutual Funds</option>
-          </select>
-        </label>
-        <label>
-          Price Range:
-          <input type="number" name="priceMin" placeholder="Min" value={filters.priceMin} onChange={handleFilterChange} />
-          <input type="number" name="priceMax" placeholder="Max" value={filters.priceMax} onChange={handleFilterChange} />
-        </label>
-        <label>
-          Search by Advisor ID or Plan Name:
-          <input type="text" name="searchText" value={filters.searchText} onChange={handleFilterChange} />
-        </label>
-      </div>
+<div>
 
-      <div>
-        <label>
-          Sort by:
-          <select value={sortOption} onChange={handleSortChange}>
-            <option value="">None</option>
-            <option value="rating">Rating</option>
-            <option value="total_orders">Total Orders</option>
-          </select>
-        </label>
-      </div>
+<center>
+      <div className="container">
+        <div>
+          <label>
+            Filter by Risk Category:
+            <select name="cat_risk" value={filters.cat_risk} onChange={handleFilterChange}>
+              <option value="">All</option>
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+          </label>
+          <label>
+            Filter by Type Category:
+            <select name="cat_type" value={filters.cat_type} onChange={handleFilterChange}>
+              <option value="">All</option>
+              <option value="equity">Equity</option>
+              <option value="mutual_funds">Mutual Funds</option>
+            </select>
+          </label>
+          <label>
+            <br/>
+            Price Range:
+            <input type="number" name="priceMin" placeholder="Min" value={filters.priceMin} onChange={handleFilterChange} />
+            <input type="number" name="priceMax" placeholder="Max" value={filters.priceMax} onChange={handleFilterChange} />
+          </label>
+          <label>
+            Search by Advisor ID or Plan Name:
+            <input type="text" name="searchText" value={filters.searchText} onChange={handleFilterChange} />
+          </label>
+        </div>
+
+        <div>
+          <label>
+            Sort by:
+            <select value={sortOption} onChange={handleSortChange}>
+              <option value="">None</option>
+              <option value="rating">Rating</option>
+              <option value="total_orders">Total Orders</option>
+            </select>
+          </label>
+        </div>
+      </div></center>
 
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {sortPlans().map((plan, index) => (

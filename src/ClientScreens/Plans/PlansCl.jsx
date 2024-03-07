@@ -10,6 +10,7 @@ function PlansCl() {
       <br/>
       <hr/>
       <br/>
+      <h2 style={{marginBottom:"1rem"}}>Explore Plans</h2>
       <PlanCardList plans={plansData} />
     </>
   );

@@ -28,7 +28,7 @@ const Arraay = ({ plans }) => {
 
   return (
     <div>
-      <h2>Top Rated Plans</h2>
+      <h2 style={{marginBottom:"1rem"}}>Top Rated Plans</h2>
       <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
         {topRatedPlans.map((plan, index) => (
           <div key={index}>
@@ -37,7 +37,7 @@ const Arraay = ({ plans }) => {
         ))}
       </Carousel>
 
-      <h2>Most Ordered Plans</h2>
+      <h2 style={{marginBottom:"1rem"}}>Most Ordered Plans</h2>
       <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
         {mostOrderedPlans.map((plan, index) => (
           <div key={index}>
