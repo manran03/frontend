@@ -11,6 +11,8 @@ import Clientlist from "./components/dashboard/client/clientlist";
 import Plans from "./components/dashboard/plans/plans";
 import ProfilePage from "./ClientScreens/Profilepage/Profilepage";
 import DashboardClient from "./ClientScreens/DashBoard/Dashboard";
+import LandingPage from "./ClientScreens/LandingPage/LandingPage";
+import PlansCl from "./ClientScreens/Plans/PlansCl";
 function App() {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
@@ -30,8 +32,8 @@ function App() {
           <Route element={<BaseLayout />}>
           <Route path="/cldash" element={<DashboardClient />} />
           <Route path="/profile" element={<ProfilePage />} />
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/clientlist" element={<Clientlist/>} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/planscl" element={<PlansCl/>} />
             {/* <Route path="/transaction" element={<Transaction/>} />   */}
            {/* <Route path="/queries" element={<Queries/>} /> */}
             <Route path="/plan" element={<Plans/>} />

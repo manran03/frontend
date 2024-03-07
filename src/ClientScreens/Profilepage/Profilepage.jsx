@@ -22,7 +22,7 @@ const ProfilePage = () => {
 
   useEffect(() => {
     // Fetch profile information from API
-    axios.get('https://805e-103-226-169-60.ngrok-free.app/first')
+    axios.get('https://3e5a-103-226-169-60.ngrok-free.app/first')
       .then(response => {
         setProfileInfo(response.data);
       })
@@ -119,6 +119,10 @@ const ProfilePage = () => {
       {isEditingOther && <OtherInfoEditForm initialValues={profileInfo.values} onSave={handleOtherSave} onCancel={() => setIsEditingOther(false)} />}
     </div>
   );
+
+  // return (
+  //   <div><h1>this is profile page</h1></div>
+  // );
 };
 
 export default ProfilePage;

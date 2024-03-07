@@ -81,11 +81,11 @@ export const TotalReturnsBarChart = ({ folioData }) => {
 
   return (
     <div className="card">
-      <div className="card-header">Total Returns of Each Plan</div>
+      <div className="card-header" style={{ marginLeft: "2vw", marginRight: "2vw" }}>Total Returns of Each Plan</div>
       <div className="card-body">
         <BarChart
-          width={500}
-          height={300}
+          width={400}
+          height={240}
           data={totalReturnsData}
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
         >
@@ -141,11 +141,11 @@ export const ReturnsTimeSeriesGraph = ({ folioData }) => {
 
   return (
     <div className="card">
-      <div className="card-header">Returns Time Series</div>
+      <div className="card-header" style={{ marginLeft: "2vw", marginRight: "2vw" }}>Returns Time Series</div>
       <div className="card-body">
         <div>
           {folioData.folio.plans.map((plan) => (
-            <div key={plan.plan_id}>
+            <span key={plan.plan_id}>
               <input
                 type="checkbox"
                 id={plan.plan_name}
@@ -153,7 +153,8 @@ export const ReturnsTimeSeriesGraph = ({ folioData }) => {
                 onChange={() => handleCheckboxChange(plan.plan_name)}
               />
               <label htmlFor={plan.plan_name}>{plan.plan_name}</label>
-            </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
           ))}
           <div>
             <input
@@ -166,8 +167,8 @@ export const ReturnsTimeSeriesGraph = ({ folioData }) => {
           </div>
         </div>
         <LineChart
-          width={500}
-          height={300}
+          width={400}
+          height={240}
           data={combinedReturns}
           margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
         >

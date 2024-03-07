@@ -50,10 +50,12 @@ const Sidebar = () => {
       ref={navbarRef}
     >
       <div className="sidebar-top">
+      <Link to='/'>
         <div className="sidebar-brand">
           <img src={theme === LIGHT_THEME ? LogoBlue : LogoWhite} alt="" />
           <span className="sidebar-brand-text">inVEST</span>
         </div>
+        </Link>
         <button className="sidebar-close-btn" onClick={closeSidebar}>
           <MdOutlineClose size={24} />
         </button>
@@ -62,7 +64,7 @@ const Sidebar = () => {
         <div className="sidebar-menu">
           <ul className="menu-list">
             <li className="menu-item">
-              <Link to="/" className="menu-link active">
+              <Link to="/cldash" className="menu-link active">
                 <span className="menu-link-icon">
                   <MdOutlineGridView size={18} />
                 </span>
@@ -86,15 +88,15 @@ const Sidebar = () => {
               </Link>
             </li> */}
             <li className="menu-item">
-              <Link to="/transaction" className="menu-link">
+              <Link to="/profile" className="menu-link">
                 <span className="menu-link-icon">
                   <MdOutlineCurrencyExchange size={18} />
                 </span>
-                <span className="menu-link-text">Transactions</span>
+                <span className="menu-link-text">Profile</span>
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/plan" className="menu-link">
+              <Link to="/planscl" className="menu-link">
                 <span className="menu-link-icon">
                   <MdOutlineShoppingBag size={20} />
                 </span>

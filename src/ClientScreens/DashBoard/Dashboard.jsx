@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { TotalInvestmentReturnsCard, InvestmentDistributionCard, TotalReturnsBarChart, ReturnsTimeSeriesGraph, PlanDetails } from './DashboardComponents';
+import { TotalInvestmentReturnsCard, InvestmentDistributionCard, TotalReturnsBarChart, ReturnsTimeSeriesGraph } from './DashboardComponents';
 import '../Profilepage/style.css';
 
 const DashboardClient = () => {
   const [folioData, setFolioData] = useState(null);
 
   useEffect(() => {
-    axios.get('https://805e-103-226-169-60.ngrok-free.app/folio')
+    axios.get('https://3e5a-103-226-169-60.ngrok-free.app/folio')
       .then(response => {
         setFolioData(response.data);
       })
@@ -17,18 +17,22 @@ const DashboardClient = () => {
   }, []);
 
   return (
-    <div className='dashboard'>
+    <div className='dashboardcl'>
       {folioData && (
         <>
           <TotalInvestmentReturnsCard folioData={folioData} />
           <InvestmentDistributionCard folioData={folioData} />
           <TotalReturnsBarChart folioData={folioData} />
           <ReturnsTimeSeriesGraph folioData={folioData} />
-          <PlanDetails folioData={folioData} />
         </>
       )}
     </div>
   );
+
+
+  // return(
+  //   <div><h1>This is dashboard</h1></div>
+  // );
 };
 
 export default DashboardClient;
