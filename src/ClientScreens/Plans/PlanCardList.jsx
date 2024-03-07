@@ -65,8 +65,9 @@ const PlanCardList = ({ plans }) => {
             Filter by Type Category:
             <select name="cat_type" value={filters.cat_type} onChange={handleFilterChange}>
               <option value="">All</option>
-              <option value="equity">Equity</option>
-              <option value="mutual_funds">Mutual Funds</option>
+              <option value="Equity">Equity</option>
+              <option value="Debts">Debts</option>
+              <option value="Commodities">Commodities</option>
             </select>
           </label>
           <label>

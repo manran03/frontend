@@ -97,5 +97,40 @@
     width: 5rem;
   }
   
+  .bigadv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:1rem;
+  }
   /* Adjust the margin and padding as needed */
-  
+
+  .advleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .lefa,.riga{
+    flex:50%;
+  }
+
+  .riga{
+    display: flex;
+    justify-content: right;
+  }
+
+  .advright{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  }
