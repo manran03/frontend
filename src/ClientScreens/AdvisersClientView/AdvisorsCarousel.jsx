@@ -30,7 +30,7 @@ const AdvisorsCarousel = ({ advisors }) => {
 
   return (
     <div>
-      <h2 style={{ marginBottom: "1rem" }}>Associate Advisors</h2>
+      <h2 style={{ marginBottom: "1rem" }}>Standard Advisors</h2>
       <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
         {associateAdvisors.map((advisor, index) => (
           <div key={index}>
@@ -41,7 +41,7 @@ const AdvisorsCarousel = ({ advisors }) => {
         ))}
       </Carousel>
 
-      <h2 style={{ marginBottom: "1rem" }}>Advance Advisors</h2>
+      <h2 style={{ marginBottom: "1rem" }}>Exeutive Advisors</h2>
       <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
         {advanceAdvisors.map((advisor, index) => (
           <div key={index}>
@@ -52,7 +52,7 @@ const AdvisorsCarousel = ({ advisors }) => {
         ))}
       </Carousel>
 
-      <h2 style={{ marginBottom: "1rem" }}>Expert Advisors</h2>
+      <h2 style={{ marginBottom: "1rem" }}>Premium Advisors</h2>
       <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
         {expertAdvisors.map((advisor, index) => (
           <div key={index}>

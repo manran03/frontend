@@ -7,7 +7,7 @@ const DashboardClient = () => {
   const [folioData, setFolioData] = useState(null);
 
   useEffect(() => {
-    axios.get('https://3e5a-103-226-169-60.ngrok-free.app/folio')
+    axios.get('https://9d47-103-226-169-60.ngrok-free.app/folio')
       .then(response => {
         setFolioData(response.data);
       })
